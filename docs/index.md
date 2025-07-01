@@ -1,26 +1,26 @@
-# Welcome to MkDocs
+## 首先是引入  
+![[png/3b2af831bfc9eec0f45836855d107a2.jpg]] 
+> [!NOTE]
+> 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## 第一讲
+**为什么需要 BMS**  
+- BMS 意思是电池管理系统
+- 与电池结合  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+> [!NOTE] 必要性
+> 生产和使用过程中会造成电池的性能不一致  
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+> [!NOTE] 优势
+> 这是 
 
 $$
 x^2
 $$
 测试  
 [[../../index|名字]]  
+
 $$
 \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\quad\text{和}\quad\frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}
 $$
@@ -28,6 +28,8 @@ $$
 一次试炼  
 首先  
 再写一个公式  
+
 $$
 \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\quad\text{和}\quad\frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}
 $$
+
