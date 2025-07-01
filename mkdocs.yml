@@ -4,3 +4,37 @@ site_url: https://brent050830.github.io/ceshi/
 site_author: 你的名字
 theme:
   name: material #主题
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  alternate:
+    - name: 简体中文
+      link: /
+      # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+      lang: zh   
+    - name: English
+      link: /Mkdocs-Wcowin/en/
+      # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+      lang: en
+    - name: China(TW)
+      link: /Mkdocs-Wcowin/ZH-TW/
+      # https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+      lang: zh-TW
+  generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
+extra_javascript:
+
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
