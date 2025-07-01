@@ -3,19 +3,49 @@ site_name: 网站名字
 site_url: https://brent050830.github.io/ceshi/
 site_author: 你的名字
 theme:
-  name: material #主题
-  palette: 
+  logo:
+  font:
+    text: JetBrains Mono, LXGW WenKai Screen GB Screen 
+  favicon:
+  custom_dir: docs/overrides  # 必需配置！！！
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  language: zh
+  name: material
+  custom_dir: docs/overrides  #主要是这一行
+  palette:
+    # primary: deep purple
+    # accent: orange
+
+
     # Palette toggle for light mode
     - scheme: default
+      primary: deep purple
+      accent: custom
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-night
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      # primary: deep purple
+      accent: custom
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
+
 extra:
   alternate:
     - name: 简体中文
