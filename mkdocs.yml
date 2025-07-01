@@ -122,44 +122,44 @@ extra:
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
 
 markdown_extensions:
-  - abbr
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - def_list
-  - footnotes
-  - md_in_html
-  - pymdownx.blocks.caption
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - toc:
-      permalink: true
-      title: On this page
-  - tables
-  # - pymdownx.escapeall:
-  #     hardbreak: True  # 硬换行
-  #     nbsp: True  # 不断行空格
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.caret
-  - pymdownx.betterem
-  - pymdownx.critic
-  - pymdownx.snippets
-  - pymdownx.smartsymbols
-  - pymdownx.keys
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.mark
-  - pymdownx.tilde
+  # - abbr
+  # - admonition
+  # - pymdownx.details
+  # - pymdownx.superfences
+  # - attr_list
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # - def_list
+  # - footnotes
+  # - md_in_html
+  # - pymdownx.blocks.caption
+  # - pymdownx.highlight:
+  #     anchor_linenums: true
+  #     line_spans: __span
+  #     pygments_lang_class: true
+  # - pymdownx.inlinehilite
+  # - pymdownx.snippets
+  # - pymdownx.superfences
+  # - toc:
+  #     permalink: true
+  #     title: On this page
+  # - tables
+  # # - pymdownx.escapeall:
+  # #     hardbreak: True  # 硬换行
+  # #     nbsp: True  # 不断行空格
+  # - pymdownx.arithmatex:
+  #     generic: true
+  # - pymdownx.caret
+  # - pymdownx.betterem
+  # - pymdownx.critic
+  # - pymdownx.snippets
+  # - pymdownx.smartsymbols
+  # - pymdownx.keys
+  # - pymdownx.details
+  # - pymdownx.inlinehilite
+  # - pymdownx.mark
+  # - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
   # - pymdownx.superfences:
