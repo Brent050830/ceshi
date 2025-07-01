@@ -32,11 +32,19 @@ extra:
       lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
 extra_javascript:
-
+  - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - javascripts/extra.js
+  - javascripts/custom.js
+  - javascripts/toc.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
+
+  - stylesheets/yuanjiao.css
+  - stylesheets/extra.css
+  # - custom.css
+  - stylesheets/fold_toc.css
 nav:
 - 🏫主页: index.md
