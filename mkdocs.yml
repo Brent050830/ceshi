@@ -38,3 +38,5 @@ extra_javascript:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
+nav:
+- 🏫主页: index.md
