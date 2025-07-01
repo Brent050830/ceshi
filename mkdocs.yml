@@ -101,7 +101,11 @@ plugins:
       enable_creation_date: true
 
 extra:
-
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+  generator: false
+  
   alternate:
     - name: 简体中文
       link: /
