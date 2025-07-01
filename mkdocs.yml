@@ -121,15 +121,15 @@ extra:
       lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
 
-# markdown_extensions:
-  # - abbr
-  # - admonition
-  # - pymdownx.details
-  # - pymdownx.superfences
-  # - attr_list
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
-  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # - def_list
   # - footnotes
   # - md_in_html
