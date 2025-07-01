@@ -21,7 +21,6 @@ x^2
 $$
 测试  
 [[../../index|名字]]  
-
 $$
 \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\quad\text{和}\quad\frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}
 $$
@@ -29,7 +28,6 @@ $$
 一次试炼  
 首先  
 再写一个公式  
-
 $$
 \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\quad\text{和}\quad\frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}
 $$
