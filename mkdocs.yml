@@ -121,7 +121,7 @@ extra:
       lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
 
-markdown_extensions:
+# markdown_extensions:
   # - abbr
   # - admonition
   # - pymdownx.details
@@ -160,8 +160,8 @@ markdown_extensions:
   # - pymdownx.inlinehilite
   # - pymdownx.mark
   # - pymdownx.tilde
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
   # - pymdownx.superfences:
   #     custom_fences:
   #       - name: mermaid
