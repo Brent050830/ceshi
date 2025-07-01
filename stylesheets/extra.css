@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Inconsolata'); */
+/* @import url('../assets/external/fonts.googleapis.com/css.e016f192.css'); */
 
 
 
@@ -13,7 +13,7 @@ button.md-top {
     font-size: 16px;
     font-weight: lighter;
 } */
-@import url('https://static.zeoseven.com/zsft/292/main/result.css');
+@import url('../assets/external/static.zeoseven.com/zsft/292/main/result.css');
 
 body {
 font-family: "LXGW WenKai";
