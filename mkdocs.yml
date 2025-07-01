@@ -1,1 +1,6 @@
-site_name: My Docs
+
+site_name: 网站名字
+site_url: https://brent050830.github.io/ceshi/
+site_author: 你的名字
+theme:
+  name: material #主题
