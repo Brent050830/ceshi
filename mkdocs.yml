@@ -189,7 +189,8 @@ extra_javascript:
   - javascripts/custom.js
   - javascripts/toc.js
   - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/tex-mml-chtml.js
+  # - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
