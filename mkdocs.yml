@@ -182,9 +182,9 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_javascript:
-  # - javascripts/katex.js
-  # - https://unpkg.com/katex@0/dist/katex.min.js
-  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - javascripts/extra.js
   - javascripts/custom.js
   - javascripts/toc.js
@@ -192,7 +192,7 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  # - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
   - https://static.zeoseven.com/zsft/292/main/result.css
   - stylesheets/yuanjiao.css
   - stylesheets/extra.css
