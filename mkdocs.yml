@@ -182,9 +182,9 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_javascript:
-  - javascripts/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  # - javascripts/katex.js
+  # - https://unpkg.com/katex@0/dist/katex.min.js
+  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - javascripts/extra.js
   - javascripts/custom.js
   - javascripts/toc.js
